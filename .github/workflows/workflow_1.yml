@@ -40,8 +40,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/Explotion80/python-ci-cd-test/python-ci-cd-demo:latest .
+          docker build -t ghcr.io/explotion80/python-ci-cd-test/python-ci-cd-demo:latest .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/Explotion80/python-ci-cd-test/python-ci-cd-demo:latest
+          docker push ghcr.io/explotion80/python-ci-cd-test/python-ci-cd-demo:latest
