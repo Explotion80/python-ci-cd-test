@@ -14,12 +14,19 @@ Struktura projektu
 
 python-ci-cd-demo/
 │── app.py             # prosta aplikacja Python
+
 │── test_app.py        # testy jednostkowe
+
 │── requirements.txt   # zależności
+
 │── Dockerfile         # Dockerfile do budowy obrazu
+
 │── .github/
+
 │    └── workflows/
+
 │         └── ci.yml   # workflow CI/CD
+
 
 
 Wymagania:
